@@ -13,12 +13,6 @@ jobs:
   terraform:
     name: "Terraform"
     runs-on: ubuntu-latest
-  
-    #env:
-        #AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-        #AWS_SECRECT_KEY_ID: ${{ secrets.AWS_SECRECT_KEY }}
-        #AWS_DEFAULT_REGION: ap-south-1
-	  
     steps:
      - name: Checkout
        uses: actions/checkout@v3
